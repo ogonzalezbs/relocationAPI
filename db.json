@@ -2,11 +2,11 @@
   "loginOk": 
   {
     {
-      "exid": "1",
+      "exid": 1,
       "name": "John Doe",
       "username" : "jdoe",
       "password" : "jdoe",
-      "active": "true"
+      "active": true
     }
   },
   "loginFail": {
