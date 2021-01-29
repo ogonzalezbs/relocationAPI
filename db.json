@@ -28,6 +28,25 @@
         "id": "3",
         "name": "Basement side"
       }
+    ],
+    "part_status":
+    [
+      {    
+      "id": "1"
+      "name": "Dismantled"
+      },
+      {    
+      "id": "3"
+      "name": "In transport"
+      },
+      {    
+      "id": "4"
+      "name": "In warehouse"
+      },
+      {    
+      "id": "5"
+      "name": "Assembled"
+      }     
     ]
   }
 }
