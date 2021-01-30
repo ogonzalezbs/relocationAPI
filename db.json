@@ -1,11 +1,11 @@
 {
   "loginOk": 
   {
-      "exid": 1,
+      "id": 1,
       "name": "John Doe",
       "username" : "jdoe",
       "password" : "jdoe",
-      "active": true
+      "active": 1
   },
   "loginFail": {
     
@@ -59,7 +59,7 @@
     ],
     "project":
     {
-      "id": "1",
+      "id": 1,
       "name": "Sample project",
       "startDate": "2021-01-01 00:00:00",
       "endDate": "2021-12-31 00:00:00",
@@ -68,11 +68,11 @@
     },
     "user":
     {
-      "exid": "1",
+      "exid": 1,
       "name": "John Doe",
       "username" : "jdoe",
       "password" : "jdoe",
-      "active": "true"
+      "active": 1
     },
     "project_user":
     {
