@@ -7,9 +7,9 @@
       "password" : "jdoe",
       "active": 1
   },
-  "loginFail": {
-    
-  },
+  "loginFail": {},
+  "unlink": {},
+  
   "data": 
   {
     "user_types": 
@@ -68,7 +68,7 @@
     },
     "user":
     {
-      "exid": 1,
+      "id": 1,
       "name": "John Doe",
       "username" : "jdoe",
       "password" : "jdoe",
