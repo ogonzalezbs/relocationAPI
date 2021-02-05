@@ -85,89 +85,183 @@
     [
       {
         "id": 1,
-        "name": "AREA NAME 1",
-        "code": "AREA CODE 1",
-        "description": "AREA DESCRIPTION 1",
+        "name": "Paper mill",
+        "code": "STR.000",
+        "description": "Paper mill",
         "color": "FFAAAA",
         "sort_order": 1
       },
       {
         "id": 2,
-        "name": "AREA NAME 2",
-        "code": "AREA CODE 2",
-        "description": "AREA DESCRIPTION 2",
+        "name": "Stock preparation",
+        "code": "STR.100",
+        "description": "Stock preparation",
+        "parent_id": 1,
         "color": "FFAAAA",
         "sort_order": 2
       },
       {
         "id": 3,
-        "name": "AREA NAME 3",
-        "code": "AREA CODE 3",
-        "description": "AREA DESCRIPTION 3",
+        "name": "Stock preparation line 1",
+        "code": "STR.101/SP0",
+        "description": "Stock preparation line 1",
+        "parent_id": 2,
         "color": "FFAAAA",
         "sort_order": 3
       },
       {
         "id": 4,
-        "name": "AREA NAME 4",
-        "code": "AREA CODE 4",
-        "description": "AREA DESCRIPTION 4",
+        "name": "Stock preparation line 2",
+        "code": "STR.102/SP0",
+        "description": "Stock preparation line 2",
+        "parent_id": 2,
         "color": "FFAAAA",
         "sort_order": 4
       },
       {
         "id": 5,
-        "name": "AREA NAME 5",
-        "code": "AREA CODE 5",
-        "description": "AREA DESCRIPTION 5",
+        "name": "WEP (wet end process)",
+        "code": "STR.200",
+        "description": "WEP (wet end process)",
         "parent_id": 1,
         "color": "FFAAAA",
         "sort_order": 5
       },
       {
         "id": 6,
-        "name": "AREA NAME 6",
-        "code": "AREA CODE 6",
-        "description": "AREA DESCRIPTION 6",
-        "parent_id": 2,
+        "name": "WEP-Line 1",
+        "code": "STR.201/WE1",
+        "description": "WEP-Line 1",
+        "parent_id": 5,
         "color": "FFAAAA",
         "sort_order": 6
       },
       {
         "id": 7,
-        "name": "AREA NAME 7",
-        "code": "AREA CODE 7",
+        "name": "Paper machine and auxiliaries",
+        "code": "STR.300",
         "description": "AREA DESCRIPTION 7",
-        "parent_id": 2,
+        "parent_id": 1,
         "color": "FFAAAA",
         "sort_order": 7
       },
       {
         "id": 8,
-        "name": "AREA NAME 8",
-        "code": "AREA CODE 8",
-        "description": "AREA DESCRIPTION 8",
-        "parent_id": 3,
+        "name": "Wet end, headbox No. 1",
+        "code": "STR.302/HB1/WS2/WS3",
+        "description": "Wet end, headbox No. 1",
+        "parent_id": 7,
         "color": "FFAAAA",
         "sort_order": 8
       },
       {
         "id": 9,
-        "name": "AREA NAME 9",
-        "code": "AREA CODE 9",
-        "description": "AREA DESCRIPTION 9",
-        "parent_id": 8,
+        "name": "Wet end, wire section",
+        "code": "STR.305/WS1/WS2/WS3/TS1",
+        "description": "Wet end, wire section",
+        "parent_id": 7,
         "color": "FFAAAA",
         "sort_order": 9
       },
       {
         "id": 10,
-        "name": "AREA NAME 10",
-        "code": "AREA CODE 10",
-        "description": "AREA DESCRIPTION 10",       
+        "name": "Dewatering machine and auxiliaries",
+        "code": "STR.301",
+        "description": "Dewatering machine and auxiliaries",       
+        "parent_id": 1,
+        "color": "FFAAAA",
+        "sort_order": 10
+      },
+      {
+        "id": 11,
+        "name": "baling line",
+        "code": "STR.389/BL1",
+        "description": "baling line",       
+        "parent_id": 10,
+        "color": "FFAAAA",
+        "sort_order": 10
+      },
+      {
+        "id": 12,
+        "name": "Finishing machine (offline)",
+        "code": "STR.500",
+        "description": "Finishing machine (offline)",       
+        "parent_id": 1,
+        "color": "FFAAAA",
+        "sort_order": 10
+      },
+      {
+        "id": 13,
+        "name": "Roll handling system and Packing machine",
+        "code": "STR.571/RH1",
+        "description": "Roll handling system and Packing machine",
+        "parent_id": 12,
+        "color": "FFAAAA",
+        "sort_order": 10
+      },
+      {
+        "id": 14,
+        "name": "Research & Development",
+        "code": "STR.900",
+        "description": "Research & Development",       
+        "parent_id": 1,
+        "color": "FFAAAA",
+        "sort_order": 10
+      },
+      {
+        "id": 15,
+        "name": "Research & Development (Stage Gate 1)",
+        "code": "STR.910/RD1",
+        "description": "Research & Development (Stage Gate 1)",
+        "parent_id": 14,
+        "color": "FFAAAA",
+        "sort_order": 10
+      },
+      {
+        "id": 16,
+        "name": "Project processing",
+        "code": "STR.PSA/all",
+        "description": "Project processing",
+        "parent_id": 1,
+        "color": "FFAAAA",
+        "sort_order": 10
+      },
+      {
+        "id": 17,
+        "name": "Auxilliaries",
+        "code": "STR.N00",
+        "description": "Auxilliaries",
+        "color": "FFAAAA",
+        "sort_order": 10
+      },
+      {
+        "id": 18,
+        "name": "system air system",
+        "code": "STR.N10/SA1",
+        "description": "system air system",
+        "parent_id": 17,
+        "color": "FFAAAA",
+        "sort_order": 10
+      },
+      {
+        "id": 19,
+        "name": "Services",
+        "code": "STR.800",
+        "description": "Services",       
+        "parent_id": 17,
+        "color": "FFAAAA",
+        "sort_order": 10
+      },
+      {
+        "id": 20,
+        "name": "Project management",
+        "code": "STR.810/SE1",
+        "description": "Project management",       
+        "parent_id": 19,
         "color": "FFAAAA",
         "sort_order": 10
       }
+      
     ]
   }
 }
