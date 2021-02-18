@@ -255,71 +255,165 @@
     "parts": [
       {
         "area": 4,
-        "code": "CF/CEBFDFF",
-        "description": "Part description 6",
-        "destination_tag": "Destination tag 6",
-        "exid": 6,
-        "id": 6,
+        "code": "Part1",
+        "description": "Part description 1",
+        "destination_tag": "Destination tag 1",
+        "exid": 1,
+        "id": 1,
         "machine_side": 1,
         "origin_tag": "Origin tag 6",
-        "plan_ref": "3",
+        "plan_ref": "493490343",
         "status": 3
       },
       {
         "area": 4,
-        "code": "A//D/A/DE/",
-        "description": "Part description 7",
-        "destination_tag": "Destination tag 7",
-        "exid": 7,
-        "id": 7,
+        "code": "Part2",
+        "description": "Part description 3",
+        "destination_tag": "Destination tag 3",
+        "exid": 2,
+        "id": 2,
         "machine_side": 1,
-        "origin_tag": "Origin tag 7",
-        "plan_ref": "8",
+        "origin_tag": "Origin tag 3",
+        "plan_ref": "893901238",
         "status": 4
-      }      
+      },
+      {
+        "area": 4,
+        "code": "Part3",
+        "description": "Part description 3",
+        "destination_tag": "Destination tag 3",
+        "exid": 3,
+        "id": 3,
+        "machine_side": 2,
+        "origin_tag": "Origin tag 3",
+        "plan_ref": "493903908-a",
+        "status": 4
+      }
+    ],
+    "photos": [
+      {
+        "created": 1613675072,
+        "exid": 1,
+        "filename": "STR101-SP0-Part1-1.jpg",
+        "id": 1
+      },
+      {
+        "created": 1613675072,
+        "exid": 2,
+        "filename": "STR101-SP0-Part1-2.jpg",
+        "id": 2
+      },
+      {
+        "created": 1613675072,
+        "exid": 3,
+        "filename": "STR101-SP0-Part1-3.jpg",
+        "id": 3
+      },
+      {
+        "created": 1613675072,
+        "exid": 4,
+        "filename": "STR101-SP0-Part1-4.png",
+        "id": 4
+      },
+      {
+        "created": 1613675072,
+        "exid": 5,
+        "filename": "STR101-SP0-Part2-1.jpg",
+        "id": 5
+      },
+      {
+        "created": 1613675072,
+        "exid": 6,
+        "filename": "STR101-SP0-Part2-2.jpg",
+        "id": 6
+      },
+      {
+        "created": 1613675072,
+        "exid": 7,
+        "filename": "STR101-SP0-Part3-1.jpg",
+        "id": 7
+      },
+      {
+        "created": 1613675072,
+        "exid": 8,
+        "filename": "STR101-SP0-Part3-2.jpg",
+        "id": 8
+      }
+    ],
+    "part_photos": [
+      {
+        "part_id": 1,
+        "photo_id": 1,
+        "sort_order": 1
+      },
+      {
+        "part_id": 1,
+        "photo_id": 2,
+        "sort_order": 5
+      },
+      {
+        "part_id": 1,
+        "photo_id": 3,
+        "sort_order": 3
+      },
+      {
+        "part_id": 1,
+        "photo_id": 4,
+        "sort_order": 7
+      },
+      {
+        "part_id": 2,
+        "photo_id": 5,
+        "sort_order": 2
+      },
+      {
+        "part_id": 2,
+        "photo_id": 6,
+        "sort_order": 1
+      },
+      {
+        "part_id": 3,
+        "photo_id": 7,
+        "sort_order": 1
+      },
+      {
+        "part_id": 3,
+        "photo_id": 8,
+        "sort_order": 2
+      }
     ]
   },
   "entities": {
     "parts": [
-      6,7
+      1,
+      2,
+      3
     ],
     "boxes": [
       5,
-      8      
+      8
     ],
     "transports": [
       3,
-      4      
+      4
     ],
     "orders": [
       4,
-      10     
+      10
     ],
     "documents": [
       6,
       10
     ],
     "photos": [
+      1,
+      2,
+      3,
       4,
-      9,
-      10,
-      11,
-      12,
-      15,
-      16,
-      22,
-      24,
-      30,
-      31,
-      32,
-      34,
-      35,
-      38,
-      40,
-      42,
-      45,
-      49,
-      50
+      5,
+      6,
+      7,
+      8
     ]
-  }  
+  }
 }
