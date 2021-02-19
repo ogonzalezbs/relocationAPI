@@ -254,7 +254,7 @@
     ],
     "parts": [
       {
-        "area": 4,
+        "area": 3,
         "code": "Part1",
         "description": "Part description 1",
         "destination_tag": "Destination tag 1",
@@ -266,7 +266,7 @@
         "status": 3
       },
       {
-        "area": 4,
+        "area": 3,
         "code": "Part2",
         "description": "Part description 3",
         "destination_tag": "Destination tag 3",
@@ -278,7 +278,7 @@
         "status": 4
       },
       {
-        "area": 4,
+        "area": 3,
         "code": "Part3",
         "description": "Part description 3",
         "destination_tag": "Destination tag 3",
