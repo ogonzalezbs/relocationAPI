@@ -19,14 +19,17 @@
       {
         "id": "1",
         "name": "Drive side"
+        "code": "DS"
       },
       {
         "id": "2",
         "name": "Operator side"
+        "code": "OS"
       },
       {
         "id": "3",
         "name": "Basement side"
+        "code": "BS"
       }
     ],
     "part_status": [
@@ -330,6 +333,7 @@
       {
         "created": "2021-12-31 00:00:00",
         "exid": 7,
+        "filename": "STR101_SP0_Part3_1.jpg",
         "filename": "STR101_SP0_Part3_1.jpg",
         "id": 7
       },
