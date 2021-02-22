@@ -18,17 +18,17 @@
     "machine_sides": [
       {
         "id": "1",
-        "name": "Drive side"
+        "name": "Drive side",
         "code": "DS"
       },
       {
         "id": "2",
-        "name": "Operator side"
+        "name": "Operator side",
         "code": "OS"
       },
       {
         "id": "3",
-        "name": "Basement side"
+        "name": "Basement side",
         "code": "BS"
       }
     ],
