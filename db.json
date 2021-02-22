@@ -297,50 +297,49 @@
       {
         "created": "2021-12-31 00:00:00",
         "exid": 1,
-        "filename": "STR101_SP0_Part1_1.jpg",
+        "filename": "STR_101_SP0_DS_Part1_1.png",
         "id": 1
       },
       {
         "created": "2021-12-31 00:00:00",
         "exid": 2,
-        "filename": "STR101_SP0_Part1_2.jpg",
+        "filename": "STR_101_SP0_DS_Part1_2.png",
         "id": 2
       },
       {
         "created": "2021-12-31 00:00:00",
         "exid": 3,
-        "filename": "STR101_SP0_Part1_3.jpg",
+        "filename": "STR_101_SP0_DS_Part1_3.png",
         "id": 3
       },
       {
         "created": "2021-12-31 00:00:00",
         "exid": 4,
-        "filename": "STR101_SP0_Part1_4.png",
+        "filename": "STR_101_SP0_DS_Part1_4.png",
         "id": 4
       },
       {
         "created": "2021-12-31 00:00:00",
         "exid": 5,
-        "filename": "STR101_SP0_Part2_1.jpg",
+        "filename": "STR_101_SP0_DS_Part2_1.png",
         "id": 5
       },
       {
         "created": "2021-12-31 00:00:00",
         "exid": 6,
-        "filename": "STR101_SP0_Part2_2.jpg",
+        "filename": "STR_101_SP0_DS_Part2_2.png",
         "id": 6
       },
       {
         "created": "2021-12-31 00:00:00",
         "exid": 7,
-        "filename": "STR101_SP0_Part3_1.jpg",
-        "filename": "STR101_SP0_Part3_1.jpg",
+        "filename": "STR_101_SP0_OS_Part3_1.png",
         "id": 7
       },
       {
         "created": "2021-12-31 00:00:00",
         "exid": 8,
-        "filename": "STR101_SP0_Part3_2.jpg",
+        "filename": "STR_101_SP0_OS_Part3_2.png",
         "id": 8
       }
     ],
