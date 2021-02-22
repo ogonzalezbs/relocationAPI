@@ -8,6 +8,7 @@
   },
   "loginFail": {},
   "unlink": {},
+  "uploadChanges": {},
   "data": {
     "user_types": [
       {
